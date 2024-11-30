@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Beng</title>
+    <!-- FAVICO -->
+    <link rel="icon" href="./IMAGES/big-beng-logo.ico" type="image/x-icon">
+    <!-- LINK FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+     <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+     <div id="preloader"></div>
+
+    <!-- Navbar -->
+<header>
+    <span class="logo">
+        <a href="/">Big Beng</a>
+    </span>
+
+    <nav class="navigation-header">
+        <a href="index.html">Inicio</a>
+        <a href="pizzas.html">Pizzas</a>
+        <a href="bebidas.html">Bebidas</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <ul class="social-links">
+        <li>
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </li>
+    </ul>
+
+    <!-- Boton para pantallas pequenias -->
+     <button class="btn-menu-responsive">
+        <i class="fa-solid fa-bars"></i>
+     </button>
+
+     <!-- Menu responsive -->
+      <div class="menu-mobile">
+        <div class="btn-close">
+            <i class="fa-solid fa-x"></i>
+        </div>
+
+        <!-- LOGO -->
+        <span class="logo">
+            <a href="/">Big Beng</a>
+        </span>
+
+        <!-- NAV -->
+        <nav class="navigation-mobile">
+            <a href="index.html">Inicio</a>
+            <a href="pizzas.html">Pizzas</a>
+            <a href="bebidas.html">Bebidas</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="nosotros.html">Nosotros</a>
+        </nav>
+
+        <!-- SOCIAL LINKS -->
+        <ul class="social-links">
+          <li>
+              <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+              </a>
+          </li>
+      </ul>
+
+      </div>
+
+
+</header>
+
+
+<!-- BANNER -->
+
+<section class="container section-baner-hero">
+    <div class="content">
+        <span class="badges-hot-pizzas">
+            <i class="fa-solid fa-fire"></i>
+            La mas pedida
+        </span>
+
+        <h1>Pizza Americana Grande</h1>
+
+        <p>QUeso mozzarella, salsa de tomate y Jamon americano</p>
+
+        <div class="badges">
+            <span>
+                <i class="fa-solid fa-money-bill"></i>
+                S/ 20.90
+            </span>
+
+            <span>
+                <i class="fa-solid fa-clock"></i>
+                25 min
+            </span>
+        </div>
+
+        <button>
+            <a href="contacto.html#descarga-app" class="btn-download">
+                <i class="fa-solid fa-motorcycle"></i> Pedir ahora
+            </a>
+        </button>
+    </div>
+
+    <!-- IMAGEN -->
+    
+    <div class="container-img">
+        <img src="./IMAGES/pizza.webp" alt="Pizza americana">
+    </div>
+
+</section>
+
+<!-- CATEGORIES -->
+
+<section class="container section-categories">
+        <div class="header">
+            <h2>Categorias</h2>
+
+            <a href="#" class="btn-all-categories"> Ver todas las categorias</a>
+        </div>
+
+        <div class="list-card-categories">
+            <div class="card-category breakfast">
+                <img src="./IMAGES/latas-Photoroom.png" alt="Icono Latas">
+                <p>Bebidas</p>
+            </div>
+
+            <div class="card-category vegan">
+                <img src="./IMAGES/antojostwo.png" alt="Icono Antojos">
+                <p>Antojos</p>
+            </div>
+
+            <div class="card-category meat">
+                <img src="./IMAGES/pizza-Photoroom.png" alt="Icono Pizzas">
+                <p>Pizzas</p>
+            </div>
+
+        </div>
+</section>
+
+<!-- ALL PIZZAS  -->
+<main class="container">
+    <h2>Nuestra variedad de Pizzas</h2>
+    <p>
+        ¡Pide desde nuestra app movil, call center o bot, y disfruta de nuestro servicio a domicilio. También puedes comprar online y recoger en tienda. ¡Conoce nuestras nuevas ubicaciones!
+    </p>
+
+    <div class="list-cart-pizzas">
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/hawaiana.webp" alt="Imagen pizza hawaiana">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Pizza Hawaiana</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/pizza-all-the-meats_1_.webp" alt="Imagen pizza all the meats">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Pizza All the Meats</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/americana.webp" alt="Imagen pizza americana">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Pizza americana con queso mozzarella y peperoni</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/pizza-hawaiana-chicken-bbq.webp" alt="Imagen pizza hawaiana chicken bbq">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Pizza Hawaiana chicken barbecue</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/pizza-vegetariana.webp" alt="Imagen pizza vegetariana">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Pizza Vegetariana</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/pizza-pepperoni.webp" alt="Imagen pizza peperoni">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Pizza Pepperoni</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span> 
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/pizza-super-margarita.webp" alt="Imagen pizza super margarita">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Pizza super margarita</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES//PizzaNapolitana.webp" alt="Imagen pizza napolitana">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Pizza Napolitana</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ANUNCIO -->
+         <div class="card-message">
+            <p>No te pierdas nuestras promociones!!</p>
+            <img src="./IMAGES/PROMOS-SIGNATURE_9_.webp" alt="PROMOS BIG BENG">
+         </div>
+    </div>
+</main>
+
+<!-- CHEF SECTION -->
+
+<section class="container section-chef"> 
+    <div class="content">
+        <h2>Hecho con amor y por los mejores chefs</h2>
+        <p>
+            Nuestros chefs son los mejores en lo que hacen, cada pizza es hecha con amor y dedicacion para que puedas disfrutar de la mejor experiencia.
+        </p>
+
+        <a href="pizzas.html">
+            <button class="btn">
+                Mira nuestras pizzas!
+            </button>
+        </a>
+    </div>
+
+    <div class="container-img">
+        <img src="./IMAGES/chef-Photoroom.png" alt="CHEF IMAGE">
+    </div>
+</section>
+
+<!-- INSTAGRAM POST -->
+
+<section class="section-posts-facebook">
+    <div class="container section-facebook">
+        <h2>Echa un vistazo a Pizzeria Big Beng en <span>Facebook</span></h2>
+
+        <p>
+            ¡Síguenos en Facebook para estar al tanto de nuestras promociones y novedades!
+        </p>
+    
+        <div class="list-posts-facebook">
+            <div class="card-img">
+                <img src="./IMAGES/facebook-post-1.PNG" alt="POST 1">
+            </div>
+
+            <div class="card-img">
+                <img src="./IMAGES/facebook-post-2.PNG" alt="POST 2">
+            </div>
+
+            <div class="card-img">
+                <img src="./IMAGES/facebook-post-3.PNG" alt="POST 3">
+            </div>
+
+            <div class="card-img">
+                <img src="./IMAGES/facebook-post-4.PNG" alt="POST 4">
+            </div>
+        </div>
+        <a href="https://www.facebook.com/PizzaBigBenPeruLaredo/" target="_blank" rel="noopener noreferrer">
+            <button class="btn-facebook">
+                Visita nuestro Facebook
+                <i class="fa-brands fa-facebook"></i>
+            </button>
+        </a>
+    </div>
+</section>
+
+<!-- MORE PIZZAS -->
+
+<div class="container section-more-pizzas">
+    <h2>
+        ¡Tu eliges con que empezar!
+    </h2>
+    <p>
+        ¡Disfruta de nuestras entradas llamativas y deliciosas!
+    </p>
+
+    <div class="list-card-pizzas">
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/burrata.webp" alt="Imagen  Burrata">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Burrata</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/empanaditas.webp" alt="Imagen Empanadas">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Empanadas</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/ensalada-carpesa.webp" alt="Imagen Ensalada Carpesa">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Ensalada Carpesa</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/lasagna.webp" alt="Imagen Lasagna">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Lasagna</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/pan-al-ajo.webp" alt="Imagen Pan al ajo">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Pan al ajo</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/panini.webp" alt="Imagen panini">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Panini</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/tequenios.webp" alt="Imagen Tequeños">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Tequeños</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pizzas">
+            <div class="container-img">
+                <img src="./IMAGES/queso-helado.webp" alt="Imagen Queso helado">
+                <buton class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </buton>
+            </div>
+
+            <div class="content">
+                <h3>Queso helado</h3>
+                <div class="footer">
+                    <span class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        25 min
+                    </span>
+
+                    <span class="price-pizza">
+                        <i class="fa-solid fa-money-bill"></i>
+                        S/ 20.90
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MAIL SECTION -->
+
+<div class="container section-newsletter">
+    <h2>
+        ¡Nuestras promociones en tu correo!
+    </h2>
+    <p>
+        ¡Suscribete a nuestro newsletter y recibe nuestras promociones y novedades!
+    </p>
+
+    <div class="container-input">
+        <input type="email" placeholder="Tu correo electronico">
+        <button class="btn">Suscribete :) </button>
+    </div>
+</div>
+
+<!-- FOOTER -->
+
+<footer class="container">
+    <div class="first-section">
+        <span class="logo">
+            <a href="/">Big Beng</a>
+        </span>
+
+        <nav class="navigation-footer">
+            <a href="pizzas.html">Pizzas</a>
+            <a href="bebidas.html">Bebidas</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="nosotros.html">Nosotros</a>
+        </nav>
+    </div>
+
+    <div class="second-section">
+        <div></div>
+        <p class="copy">
+            &copy; 2024 Big Beng | Todos los derechos reservados.
+        </p>
+
+        <ul class="social-links">
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</footer>
+
+
+<!-- LINK JAVASCRIPT -->
+ <script src="./JS/script.js"></script>
+
+ <!-- JS PARA EL PRELOADER -->
+
+ <script>
+    window.addEventListener('load', function () {
+        var loader = document.getElementById('preloader');
+        
+        
+        setTimeout(function () {
+            loader.style.opacity = '0';  
+
+            setTimeout(function () {
+                loader.style.display = 'none';
+            }, 500);  
+        }, 2000);  
+    });
+ </script>
+
+</body>
+</html>
